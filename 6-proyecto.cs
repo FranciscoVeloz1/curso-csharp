@@ -21,6 +21,5 @@ class Program
         double gradosGiro = (360.0 * distanciaAvance) / circunferenciaLlanta;
 
         Console.WriteLine($"Para avanzar {distanciaAvance} centímetros, la llanta debe girar {gradosGiro.ToString("0.00")} grados.");
-
     }
 }
